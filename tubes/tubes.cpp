@@ -202,7 +202,18 @@ void printProject(adrProject L) {
 void deletePanitia(adrDivisi D, string nim);
 void deleteProject(adrProject &L, string namaProject);
 void panitiaDoneProject(adrPanitia P, string namaProject);
-adrDivisi findDivisi(adrDivisi L, string namaDivisi);
+
+adrDivisi findDivisi(adrDivisi L, string namaDivisi) {
+    adrDivisi P = L;
+    while (P != nullptr) {
+        if (P->info.namaDivisi == namaDivisi) {
+            return P;
+        }
+        P = P->next;
+    }
+    return nullptr;
+}
+
 adrPanitia findPanitia(adrDivisi D, string nim);
 adrProject findProject(adrProject L, string namaProject);
 adrRelasi findRelasi(adrPanitia P, string namaProject);
