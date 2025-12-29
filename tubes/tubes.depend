@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1766745423 source:d:\desktop\kuliah stuff\semester 3\1. struktur data (praktikum)\tugas\tubes\tubes\tubes.cpp
+	"tubes.h"
+	<algorithm>
+
+1766745437 d:\desktop\kuliah stuff\semester 3\1. struktur data (praktikum)\tugas\tubes\tubes\tubes.h
+	<iostream>
+	<string>
+
+1766741486 source:d:\desktop\kuliah stuff\semester 3\1. struktur data (praktikum)\tugas\tubes\tubes\main.cpp
+	<iostream>
+	"tubes.h"
+
