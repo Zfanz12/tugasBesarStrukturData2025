@@ -7,6 +7,11 @@ string toLower(string s) {
     return s;
 }
 
+void pauseMenu() {
+    cout << "\nTekan ENTER untuk kembali ke menu utama...";
+    cin.get();
+}
+
 //create logic
 void createListDivisi(adrDivisi &L) {
     L = nullptr;
