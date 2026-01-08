@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1766745423 source:d:\desktop\kuliah stuff\semester 3\1. struktur data (praktikum)\tugas\tubes\tubes\tubes.cpp
+1767844555 source:d:\desktop\kuliah stuff\semester 3\1. struktur data (praktikum)\tugas\tubes\tubes\tubes.cpp
 	"tubes.h"
 	<algorithm>
 
@@ -7,7 +7,7 @@
 	<iostream>
 	<string>
 
-1766745583 source:d:\desktop\kuliah stuff\semester 3\1. struktur data (praktikum)\tugas\tubes\tubes\main.cpp
+1767844543 source:d:\desktop\kuliah stuff\semester 3\1. struktur data (praktikum)\tugas\tubes\tubes\main.cpp
 	<iostream>
 	"tubes.h"
 

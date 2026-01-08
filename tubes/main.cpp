@@ -2,10 +2,7 @@
 #include "tubes.h"
 using namespace std;
 
-void pauseMenu() {
-    cout << "\nTekan ENTER untuk kembali ke menu utama...";
-    cin.get();
-}
+
 
 int main() {
     adrDivisi listDivisi;
